@@ -30,7 +30,7 @@ ad_proc -private rphoto_display_portlet::my_package_key {
 
 ad_proc -public rphoto_display_portlet::get_pretty_name {
 } {
-    return "One member"
+    return "[_ random-photo-portlet.One_member]"
 }
 
 
