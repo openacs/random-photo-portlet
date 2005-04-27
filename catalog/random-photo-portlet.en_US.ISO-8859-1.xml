@@ -6,4 +6,5 @@
   <msg key="Role">Role:</msg>
   <msg key="role_of_pretty_name">%role% of %pretty_name%</msg>
   <msg key="One_member">One Member</msg>
+  <msg key="Random_photo">Random Photo</msg>
 </message_catalog>
