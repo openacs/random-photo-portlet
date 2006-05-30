@@ -4,7 +4,7 @@
   <msg key="lt_There_are_no_photos_t">No existen fotos para mostrar</msg>
   <msg key="Name">Nombre:</msg>
   <msg key="One_member">Un Miembro</msg>
+  <msg key="Random_photo">Foto Aleatorea</msg>
   <msg key="Role">Role:</msg>
   <msg key="role_of_pretty_name">%role% de %pretty_name%</msg>
-  <msg key="Random_photo">Foto Aleatorea</msg>
 </message_catalog>
