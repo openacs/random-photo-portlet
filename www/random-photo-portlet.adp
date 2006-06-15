@@ -6,6 +6,7 @@
 <img src="/shared/portrait-bits.tcl?user_id=@random_user_id@" alt="Portrait of @full_name@" style="border:2px solid #e2e2e2;"> 
 </td>
 <td valign="top">
+#random-photo-portlet.One_member#
 <ul class="mktree">
 <li class="liClosed">
 <ul>
