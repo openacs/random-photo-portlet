@@ -19,7 +19,22 @@ if [empty_string_p $random_comm_id] {
     set random_comm_id [db_list communities "*SQL*"]
 }
 
-set random_user_id [db_list "members" "*SQL*"]
+set users_list [db_list "members" "*SQL*"]
+set random_user_pos [expr { int(rand()*[llength $users_list])}]
+set random_user_id [lindex $users_list $random_user_pos]
+set bio [ad_html_to_text [person::get_bio -person_id $random_user_id]] 
+set random_user_bio [string trim [string range $bio 0 200]]
+if { [string length $bio] > 200 } {
+  append random_user_bio " ... <a href=\"/dotlrn/community-member?user_id=$random_user_id\">more</a>"
+}
+
+# get user's communities
+set groups [list]
+set community_list [dotlrn_community::get_all_communities_by_user $random_user_id]
+foreach item $community_list {
+	lappend groups [ns_set get $item "pretty_name"]
+}
+set random_user_groups [join $groups ", "]
 
 if ![db_0or1row "get_member_info" "*SQL*"] {
 set user_p 0
@@ -28,3 +43,10 @@ set user_p 1
 }
 
 db_1row "get_commutity_name" "select pretty_name from dotlrn_communities_all where community_id = :random_comm_id"
+
+global dotlrn_master__header_stuff
+append dotlrn_master__header_stuff {
+     <script src="/resources/acs-templating/mktree.js" language="javascript"></SCRIPT>
+     <link rel="stylesheet" href="/resources/acs-templating/mktree.css" media="all">
+}
+

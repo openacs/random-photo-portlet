@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="random-photo-portlet" package_version="2.2.0b2" locale="pt_BR" charset="ISO-8859-1">
+
+  <msg key="lt_There_are_no_photos_t">Não há fotos para mostrar</msg>
+  <msg key="Name">Nome:</msg>
+  <msg key="One_member">Um Membro</msg>
+  <msg key="Random_photo">Foto Aleatória</msg>
+  <msg key="Role">Papel:</msg>
+  <msg key="role_of_pretty_name">%role% de %pretty_name%</msg>
+</message_catalog>
