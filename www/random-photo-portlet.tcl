@@ -46,7 +46,7 @@ db_1row "get_commutity_name" "select pretty_name from dotlrn_communities_all whe
 
 global dotlrn_master__header_stuff
 append dotlrn_master__header_stuff {
-     <script src="/resources/acs-templating/mktree.js" language="javascript"></SCRIPT>
-     <link rel="stylesheet" href="/resources/acs-templating/mktree.css" media="all">
+     <script type="text/javascript" src="/resources/acs-templating/mktree.js" language="javascript"></SCRIPT>
+     <link rel="stylesheet" type="text/css" href="/resources/acs-templating/mktree.css" media="all">
 }
 
