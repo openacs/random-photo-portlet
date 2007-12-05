@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message_catalog package_key="random-photo-portlet" package_version="2.3.1" locale="el_GR" charset="utf-8">
+
+  <msg key="lt_There_are_no_photos_t">Δεν υπάρχουν φωτογραφίες για προβολή</msg>
+  <msg key="Name">Όνομα:</msg>
+  <msg key="One_member">Ένα μέλος</msg>
+  <msg key="Random_photo">Τυχαία φωτογραφία</msg>
+  <msg key="Role">Ρόλος:
+</msg>
+  <msg key="role_of_pretty_name">%role% του %pretty_name%</msg>
+</message_catalog>
