@@ -44,9 +44,6 @@ set user_p 1
 
 db_1row "get_commutity_name" "select pretty_name from dotlrn_communities_all where community_id = :random_comm_id"
 
-global dotlrn_master__header_stuff
-append dotlrn_master__header_stuff {
-     <script type="text/javascript" src="/resources/acs-templating/mktree.js" language="javascript"></SCRIPT>
-     <link rel="stylesheet" type="text/css" href="/resources/acs-templating/mktree.css" media="all">
-}
+template::head::add_javascript -src "/resources/acs-templating/mktree.js"
+template::head::add_css -href "/resources/acs-templating/mktree.css"
 
