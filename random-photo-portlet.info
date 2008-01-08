@@ -7,12 +7,12 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>f</singleton-p>
     
-    <version name="2.3.1" url="http://openacs.org/repository/download/apm/random-photo-portlet-2.3.1.apm">
+    <version name="2.4.0d1" url="http://openacs.org/repository/download/apm/random-photo-portlet-2.4.0d1.apm">
         <owner url="mailto:gmorales@galileo.edu">Gerardo Morales</owner>
-        <release-date>2007-09-08</release-date>
+        <release-date>2008-01-08</release-date>
 
-        <provides url="random-photo-portlet" version="2.3.1"/>
-        <requires url="dotlrn" version="2.3.1"/>
+        <provides url="random-photo-portlet" version="2.4.0d1"/>
+        <requires url="dotlrn" version="2.4.0d1"/>
 
         <callbacks>
             <callback type="after-install"  proc="rphoto_portlet::after_install"/>
