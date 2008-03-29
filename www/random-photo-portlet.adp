@@ -11,14 +11,13 @@ Who's this ?
 <li class="liClosed">
 Click to find out.
 <ul>
-<b>#random-photo-portlet.Name#</b> <a href="/dotlrn/community-member?user_id=@user_id@">@full_name@</a> <br>
+<li><b>#random-photo-portlet.Name#</b> <a href="/dotlrn/community-member?user_id=@user_id@">@full_name@</a></li>
 <if @random_user_bio@ ne "">
-<b>About:</b> @random_user_bio;noquote@<br>
+<li><b>About:</b> @random_user_bio;noquote@</li>
 </if>
 <if @random_user_groups@ ne "">
-<b>Groups:</b> @random_user_groups;noquote@<br>
+<li><b>Groups:</b> @random_user_groups;noquote@</li>
 </if>
-</li>
 </ul>
 </li>
 </ul>
@@ -41,4 +40,3 @@ Click to find out.
 <if @user_p@ eq 0>
 #random-photo-portlet.lt_There_are_no_photos_t#
 </if> 
-
