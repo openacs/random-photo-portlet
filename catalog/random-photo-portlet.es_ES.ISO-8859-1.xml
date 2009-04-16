@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <message_catalog package_key="random-photo-portlet" locale="es_ES" charset="ISO-8859-1">
 
+  <msg key="Click_to_find_out">Click para averiguarlo</msg>
+  <msg key="Groups">Grupos</msg>
   <msg key="lt_There_are_no_photos_t">No existen fotos para mostrar</msg>
   <msg key="Name">Nombre:</msg>
   <msg key="One_member">Un Miembro</msg>
   <msg key="Random_photo">Foto Aleatorea</msg>
   <msg key="Role">Role:</msg>
   <msg key="role_of_pretty_name">%role% de %pretty_name%</msg>
+  <msg key="Who_this">¿Quién es?</msg>
 </message_catalog>
