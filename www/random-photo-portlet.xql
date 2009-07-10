@@ -6,6 +6,8 @@
            select dotlrn_member_rels_approved.rel_id, 
                    dotlrn_member_rels_approved.role, 
                    dotlrn_member_rels_approved.user_id, 
+                   registered_users.first_names,
+                   registered_users.last_name,
                    registered_users.first_names || ' '|| registered_users.last_name as full_name, 
                    registered_users.email 
                    from registered_users, 

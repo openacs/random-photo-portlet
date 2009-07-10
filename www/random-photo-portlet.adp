@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td valign="top">
-<img src="/shared/portrait-bits.tcl?user_id=@random_user_id@" alt="Portrait of @full_name@" width="135" style="border:2px solid #e2e2e2;"> 
+<img src="/shared/portrait-bits.tcl?user_id=@random_user_id@" alt="#acs-subsite.lt_Portrait_of_first_last#" width="135" style="border:2px solid #e2e2e2;"> 
 </td>
 <td valign="top">
 #random-photo-portlet.Who_this#
