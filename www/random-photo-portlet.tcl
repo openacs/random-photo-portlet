@@ -29,7 +29,7 @@ if { [string length $bio] > 200 } {
 }
 
 # get user's communities
-set groups {}
+set groups [list]
 set community_list [dotlrn_community::get_all_communities_by_user $random_user_id]
 foreach item $community_list {
 	lappend groups [ns_set get $item "pretty_name"]
